@@ -193,6 +193,7 @@ section.welcome-p {
     align-items: center;
 }
 .welcome-p .img img{
+        max-width: 100%;
     flex-basis: 40%;
 }
 .social {
