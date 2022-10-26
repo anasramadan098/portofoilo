@@ -648,3 +648,18 @@ section:not(:last-of-type)::after {
     color: #000;
     text-align: center;
 }
+/* Scroll Bar  */
+::-webkit-scrollbar {
+    width: 18px;
+}
+::-webkit-scrollbar-track {
+    background-color: #16181c;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: var(--red-color);
+}
+::-webkit-scrollbar-button {
+    background-color: #262a2e;
+}
+/* Scroll Bar  */
