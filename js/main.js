@@ -1,5 +1,5 @@
-let firstName = "Hoda";
-let lastName = "Mohammed";
+let firstName = "Anas";
+let lastName = "Ramadan";
 let fullName = firstName + ' ' + lastName
 
 let span = document.querySelector('header .logo span');
