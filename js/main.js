@@ -84,9 +84,9 @@ fetch('js/testimonils.json')
             card.className = 'card'
             // Create Text And Img Div
             let lordIcon = document.createElement('lord-icon');
-            lordIcon.setAttribute('src','https://cdn.lordicon.com/mxzuvjjs.json');
+            lordIcon.setAttribute('src','https://cdn.lordicon.com/meqqbzid.json');
             lordIcon.setAttribute('trigger','loop');
-            lordIcon.setAttribute('colors','primary:#eee966');
+            lordIcon.setAttribute('colors','outline:#121331,primary:#4bb3fd');
             lordIcon.setAttribute('style','width:50px;height:50px');
             let p = document.createElement('p');
             p.setAttribute('data-content',json[i].contetnt);
