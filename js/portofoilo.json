@@ -1,15 +1,5 @@
 [
     {
-        "src_0" : "imgs/responsive-landing-page.png",
-        "p_0" : "Responsive Landing Page",
-        "a_0" : "https://anasramadan098.github.io/landing_page"
-    } ,
-    {
-        "src_0" : "imgs/shop-page.png",
-        "p_0" : "Eccomerence Shop Responsive Page",
-        "a_0" : "https://anasramadan098.github.io/Sneakrs/"
-    } ,
-    {
         "src_0" : "imgs/quiz-app.png",
         "p_0" : "HTML Quiz Website",
         "a_0" : "https://anasramadan098.github.io/quizApp"
@@ -25,19 +15,9 @@
         "a_0" : "https://anasramadan098.github.io/rock-papper-game/"
     } ,
     {
-        "src_0" : "imgs/password-generator-app.png",
-        "p_0" : "Strong Password Generator Website",
-        "a_0" : "https://anasramadan098.github.io/Password/"
-    } ,
-    {
-        "src_0" : "imgs/sparkly.png",
-        "p_0" : "Sparkly Academy Learning  Kids Website",
-        "a_0" : "https://anasramadanking.wixsite.com/sparkly"
-    } ,
-    {
         "src_0" : "imgs/mkeen.png",
         "p_0" : "Mkeen Academy Learning Kids Website",
-        "a_0" : "https://mkeen17.com/"
+        "a_0" : "https://anasramadan098.github.io/Password/"
     } ,
     {
         "src_0" : "imgs/24etar.png",
@@ -50,18 +30,18 @@
         "a_0" : "https://www.wehost.ma"
     },
     {
-        "src_0" : "imgs/burgerizzr.png",
-        "p_0" : "Burgerizzr",
-        "a_0" : "https://anasramadanking.wixsite.com/burger-resturant"
-    },
-    {
-        "src_0" : "imgs/fast-road.png",
-        "p_0" : "Fast Road General Contracting",
-        "a_0" : "https://https://anasramadanking.wixsite.com/my-site-11"
+        "src_0" : "imgs/wejahti.png",
+        "p_0" : "Wejahti Hotels",
+        "a_0" : "https://www.wijhti.com/"
     },
     {
         "src_0" : "imgs/foodcom.png",
-        "p_0" : "Foodcom",
-        "a_0" : "https://anasramadanking.wixsite.com/my-site"
-    }
+        "p_0" : "Foodcom Website",
+        "a_0" : "https://www.foodkom.co/"
+    },
+    {
+        "src_0" : "imgs/burgerizzr.png",
+        "p_0" : "Burgerizzr Resturant",
+        "a_0" : "https://anasramadanking.wixsite.com/burger-resturant"
+    }   
 ]
