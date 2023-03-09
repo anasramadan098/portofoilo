@@ -61,7 +61,8 @@ fetch('js/portofoilo.json')
             let imgDiv = document.createElement('div');
             imgDiv.className = 'img'
             let img = document.createElement('img');
-            img.src = json[i].src_0
+            img.src = json[i].src_0;
+            img.setAttribute('alt',`img_${i}`)
             let p = document.createElement('p');
             p.textContent = json[i].p_0
             // Append Elements
@@ -118,3 +119,37 @@ fetch('js/testimonils.json')
             document.querySelector('.testimonial .cards').append(card);
         }
     })
+
+
+const form = document.querySelector('form');
+
+form.addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const nameInput = document.querySelector('#name');
+  const emailInput = document.querySelector('#email');
+  const messageInput = document.querySelector('#message');
+
+  const name = nameInput.value;
+  const email = emailInput.value;
+  const message = messageInput.value;
+
+  fetch('<https://formspree.io/f/xbjeyvyo>', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({name: name, email: email, message: message})
+  })
+  .then(response => {
+    if (response.ok) {
+      form.innerHTML = '<p>Thank you for your message!</p>';
+    } else {
+      form.innerHTML = '<p>Sorry, there was an error sending your message. Please try again later.</p>';
+    }
+  })
+  .catch(error => {
+    console.error(error);
+    form.innerHTML = '<p>Sorry, there was an error sending your message. Please try again later.</p>';
+  });
+});
