@@ -678,3 +678,115 @@ footer {
 footer p {
     text-align: center;
 }
+/* About Us Page */
+header a.active {
+    color: var(--red-color);
+}
+.about-welcome {
+    background: url(../imgs/about-us-bg.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-welcome  h1 {
+    font-size: 4em;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.about-welcome .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.about-welcome a:first-of-type {
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 105, 118);
+    border: 1px solid transparent;
+    width: 100%;
+    max-width: fit-content;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 35px;
+    transition: .3s;
+}
+.about-welcome a:first-of-type:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(41, 46, 73);
+    border: 1px solid transparent;
+}
+.about-welcome a:last-of-type {
+    color: rgb(214, 226, 250);
+    background-image: initial;
+    background-color: transparent;
+    border: 1px solid rgb(196, 201, 205);
+    width: fit-content;
+    padding: 15px 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: .3s;
+}
+.about-welcome a:last-of-type:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(196, 201, 205);
+    border: 1px solid transparent;
+}
+#about {
+    min-height: 100vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+}
+#about .box {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    transition: .3s;
+}
+#about .box p,
+#about li,
+#about .box {
+    color: #111;
+    line-height: 2;
+    transition: .3s;
+}
+#about .box:hover {
+    background-color: transparent;
+}
+#about .box:hover p,
+#about .box:hover li,
+#about .box:hover {
+    color: #fff;
+}
+#about ul {
+    margin: 5px;
+}
+#about li {
+    color: #000;
+    font-weight: bold;
+}
+#about li::before {
+    font-family: 'FontAwesome';
+    content: "\f00c";
+    margin-right: 10px;
+}
+#about .box:hover li {
+    color: #fff;
+}
