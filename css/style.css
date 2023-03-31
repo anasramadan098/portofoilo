@@ -790,3 +790,21 @@ header a.active {
 #about .box:hover li {
     color: #fff;
 }
+@media (max-width:767px) {
+    .about-welcome .btns {
+        width: 100%;
+    }
+    #about {
+        padding: 60px 10px;
+        text-align: center;
+    }
+    #about .box {
+        padding: 15px;
+    }
+    section.welcome-p {
+        padding: 250px 40px 80px;
+    }
+    .welcome-p .img img {
+        max-width: 100%;
+    }
+}
