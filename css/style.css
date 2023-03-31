@@ -664,6 +664,17 @@ section:not(:last-of-type)::after {
     background: var(--red-color);
 }
 ::-webkit-scrollbar-button {
-    background-color: #262a2e;
+    background-color: var(--red-color);
 }
 /* Scroll Bar  */
+footer {
+    background-color: #000;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+footer p {
+    text-align: center;
+}
