@@ -153,3 +153,6 @@ form.addEventListener('submit', function(e) {
     form.innerHTML = '<p>Sorry, there was an error sending your message. Please try again later.</p>';
   });
 });
+
+let date = new Date();
+document.querySelector('footer span').textContent = date.getFullYear();
