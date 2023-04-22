@@ -123,36 +123,21 @@ fetch('js/testimonils.json')
 
 const form = document.querySelector('form');
 
-form.addEventListener('submit', function(e) {
+form.addEventListener('submit', function(e) { 
   e.preventDefault();
-
-  const nameInput = document.querySelector('#name');
-  const emailInput = document.querySelector('#email');
-  const messageInput = document.querySelector('#message');
-
-  const name = nameInput.value;
-  const email = emailInput.value;
-  const message = messageInput.value;
-
-  fetch('<https://formspree.io/f/xbjeyvyo>', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({name: name, email: email, message: message})
-  })
-  .then(response => {
-    if (response.ok) {
-      form.innerHTML = '<p>Thank you for your message!</p>';
-    } else {
-      form.innerHTML = '<p>Sorry, there was an error sending your message. Please try again later.</p>';
-    }
-  })
-  .catch(error => {
-    console.error(error);
-    form.innerHTML = '<p>Sorry, there was an error sending your message. Please try again later.</p>';
-  });
+    
+    transporter.sendMail(mailOptions, function(error, info){
+      if (error) {
+        console.log(error);
+      } else {
+        console.log('Email sent: ' + info.response);
+      }
 });
+    
+    
+}
+
+
 
 let date = new Date();
 document.querySelector('footer span').textContent = date.getFullYear();
