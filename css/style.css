@@ -790,6 +790,9 @@ header a.active {
 #about .box:hover li {
     color: #fff;
 }
+footer span {
+    color : #FFEB3B;
+}
 @media (max-width:767px) {
     .about-welcome .btns {
         width: 100%;
