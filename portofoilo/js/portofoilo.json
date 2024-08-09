@@ -30,13 +30,23 @@
         "a_0" : "https://www.wijhti.com/"
     },
     {
-        "src_0" : "imgs/foodcom.png",
-        "p_0" : "Foodcom Website",
-        "a_0" : "https://www.foodkom.co/"
-    },
-    {
         "src_0" : "imgs/sara-gym.png",
         "p_0" : "Sara For Coaching Website",
         "a_0" : "https://saraprodawood.wixsite.com/saradawoodprofit"
+    },
+    {
+        "src_0" : "imgs/qica-academey.png",
+        "p_0" : "Qic Academey For Courses",
+        "a_0" : "https://qica-academey.com/"
+    },
+    {
+        "src_0" : "imgs/ostermalmtandvard.png",
+        "p_0" : "Ostermalmtandvard Dentist Website",
+        "a_0" : "https://www.ostermalmtandvard.com/"
+    },
+    {
+        "src_0" : "imgs/easy-scope.png",
+        "p_0" : "Easy Scope Company Portfolio Website",
+        "a_0" : "https://www.easy-scope.com/"
     }
 ]
