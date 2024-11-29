@@ -10,6 +10,68 @@
         <title>Anas Ramadan</title>
     </head>
 <body>
+    <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+
+    <div id="context-menu" class="context-menu-container">
+        <ul class="context-menu-list">
+            <li class="pages">
+                <span>Pages</span>
+                <lord-icon
+                    src="https://cdn.lordicon.com/whtfgdfm.json"
+                    trigger="hover"
+                    colors="primary:#ff014f,secondary:#1c1e22"
+
+                    >
+                </lord-icon>
+                <ul class="sub-menu">
+                    <a href="index.html">
+                        <li>
+                            <span>Home</span>
+                            <lord-icon
+                                src="https://cdn.lordicon.com/fjvfsqea.json"
+                                trigger="hover"
+                                colors="primary:#ff014f,secondary:#1c1e22"
+
+                                >
+                            </lord-icon>
+                        </li>
+                    </a>
+                    <a href="about-us.html">
+                        <li>
+                            <span>About Us</span>
+                            <lord-icon
+                                src="https://cdn.lordicon.com/fjvfsqea.json"
+                                trigger="hover"
+                                colors="primary:#ff014f,secondary:#1c1e22"
+
+                                >
+                            </lord-icon>
+                        </li>
+                    </a>
+                </ul>
+            </li>
+            <!-- <li class="copy">
+                <span>Copy</span>
+                 <lord-icon
+                 src="https://cdn.lordicon.com/depeqmsz.json"
+                 trigger="hover"
+                 >
+                </lord-icon>
+            </li> -->
+            <li class="refresh">
+                <span>Refresh</span>
+                <!-- Refresh Icon -->
+                 <lord-icon
+                 src="https://cdn.lordicon.com/mfblariy.json"
+                 trigger="hover"
+                 delay="1500"
+                 colors="primary:#ff014f,secondary:#1c1e22"
+
+                 >
+                </lord-icon>
+            </li>
+        </ul>
+    </div>
     <header >
         <div class="logo">
             <div class="img">
@@ -103,5 +165,7 @@
         let date = new Date();
         document.querySelector('footer span').textContent = date.getFullYear(); 
     </script>
+    <script src="js/context.js"></script>
+
 </body>
 </html>

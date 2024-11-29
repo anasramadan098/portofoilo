@@ -13,6 +13,69 @@
 </head>
 <body>
     <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+    <!-- Context Menu -->
+     <div id="context-menu" class="context-menu-container">
+        <ul class="context-menu-list">
+            <li class="pages">
+                <span>Pages</span>
+                <lord-icon
+                    src="https://cdn.lordicon.com/whtfgdfm.json"
+                    trigger="hover"
+                    colors="primary:#ff014f,secondary:#1c1e22"
+
+                    >
+                </lord-icon>
+                <ul class="sub-menu">
+                    <a href="index.html">
+                        <li>
+                            <span>Home</span>
+                            <lord-icon
+                                src="https://cdn.lordicon.com/fjvfsqea.json"
+                                trigger="hover"
+                                colors="primary:#1c1e22,secondary:#ff014f"
+
+                                >
+                            </lord-icon>
+                        </li>
+                    </a>
+                    <a href="about-us.html">
+                        <li>
+                            <span>About Us</span>
+                            <lord-icon
+                                src="https://cdn.lordicon.com/fjvfsqea.json"
+                                trigger="hover"
+                                colors="primary:#1c1e22,secondary:#ff014f"
+
+                                >
+                            </lord-icon>
+                        </li>
+                    </a>
+                </ul>
+            </li>
+            <li class="refresh">
+                <span>Refresh</span>
+                <!-- Refresh Icon -->
+                 <lord-icon
+                 src="https://cdn.lordicon.com/mfblariy.json"
+                 trigger="hover"
+                 delay="1500"
+                 colors="primary:#ff014f,secondary:#1c1e22"
+
+                 >
+                </lord-icon>
+            </li>
+            <!-- <li class="inspect">
+                <span>Inspect</span>
+                <lord-icon
+                    src="https://cdn.lordicon.com/gvtjlyjf.json"
+                    trigger="hover"
+                    colors="primary:#ff014f,secondary:#1c1e22"
+                    >
+                </lord-icon>
+            </li> -->
+        </ul>
+    </div>
+    <!-- End Context Menu -->
     <header >
         <div class="logo">
             <div class="img">
@@ -29,7 +92,7 @@
                 </lord-icon>
                 <ul class="links">
                     <li>
-                        <a href="#Home">Home</a>
+                        <a href="index.html#Home">Home</a>
                     </li>
                     <li>
                         <a href="about-us.html">About Us</a>
@@ -382,5 +445,7 @@
         </button>
     </a>
     <script src="js/main.js"></script>
+    <script src="js/context.js"></script>
+
 </body>
 </html>

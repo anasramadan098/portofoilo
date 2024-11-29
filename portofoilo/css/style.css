@@ -811,3 +811,54 @@ footer span {
         max-width: 100%;
     }
 }
+#context-menu ul:not(.sub-menu){
+    display: none;
+    position: fixed;
+    background-color: var(--lighten-color2);
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    padding: 8px 5px;
+    border-radius: 5px;
+    z-index: 1000;
+    li {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4px 10px;
+        border-radius: 6px;
+        gap: 50px;
+        transition: .3s ;
+        &:hover {
+            background-color: var(--lighten-color);
+            color: #fff;
+        }
+        span , a {
+            font-size: 14px;
+            color: #000;
+            font-weight: bold;
+        }
+        lord-icon {
+            width: 30px ;
+            height: 30px ;
+        }
+    }
+    li:hover:first-child {
+        ul.sub-menu {
+            display: block;
+        }
+    }
+    ul.sub-menu {
+        display: none;
+        position: absolute;
+        right: -100%;
+        top: 0;
+        background: var(--lighten-color);
+        border-radius: 5px;
+        transition: .3s;
+        &:hover {
+            background-color: var(--lighten-color2);
+        }
+    }
+} 
