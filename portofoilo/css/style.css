@@ -368,6 +368,8 @@ section:not(:last-of-type)::after {
     margin-bottom: 30px;
 }
 .portofoilo .card img {
+    width: 300px;
+    height: 230px;
     max-width: 100%;
     border-radius: 6px;
     transition: .3s;
