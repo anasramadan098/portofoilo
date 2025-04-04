@@ -76,10 +76,13 @@
         </ul>
     </div>
     <!-- End Context Menu -->
+    <!-- Start Cursor Circle -->
+    <div class="cursor-circle"></div>
+    <!-- End Cursor Circle -->
     <header >
         <div class="logo">
             <div class="img">
-                <img src="imgs/logo.png" alt="logo">
+                <img loading="lazy" src="imgs/logo.png" alt="logo">
                 <span>Anas</span>
             </div>
         </div>
@@ -160,7 +163,7 @@
             </div>
         </div>
         <div class="img">
-            <img src="imgs/logo.png" alt="logo">
+            <img src="imgs/logo.png" loading="lazy" alt="logo">
         </div>
     </section>
     <!-- End Welcome -->
@@ -383,7 +386,7 @@
         <div class="holder">
             <div class="text">
                 <div class="img">
-                    <img src="imgs/contact1.png" alt="bg-contact">
+                    <img src="imgs/contact1.png" loading="lazy" alt="bg-contact">
                 </div>
                 <div class="name">
                     <h3>Anas Ramadan</h3>
@@ -434,7 +437,7 @@
     </footer>
     <!-- Back To Top -->
     <a href="#Home" class="no-blank">
-        <button class="back-to-top">
+        <button name="bacToTop" class="back-to-top">
             <lord-icon class="arrow active"
         src="https://cdn.lordicon.com/vtpxjewg.json"
         trigger="loop"
@@ -444,8 +447,13 @@
     </lord-icon>
         </button>
     </a>
-    <script src="js/main.js"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js" integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/gsap.js"></script>
     <script src="js/context.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 </html>

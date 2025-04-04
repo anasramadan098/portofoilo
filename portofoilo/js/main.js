@@ -61,6 +61,7 @@ fetch('js/portofoilo.json')
             let imgDiv = document.createElement('div');
             imgDiv.className = 'img'
             let img = document.createElement('img');
+            img.loading = 'lazy';
             img.src = json[i].src_0;
             img.setAttribute('alt',`img_${i}`)
             let p = document.createElement('p');
@@ -83,7 +84,7 @@ fetch('js/testimonils.json')
             // Create Card Div
             let card = document.createElement('div');
             card.className = 'card'
-            // Create Text And Img Div
+            // Create Text  Div
             let lordIcon = document.createElement('lord-icon');
             lordIcon.setAttribute('src','https://cdn.lordicon.com/meqqbzid.json');
             lordIcon.setAttribute('trigger','loop');
