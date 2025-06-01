@@ -102,6 +102,7 @@ app.post('/send',(req,res) => {
               <h1>From ${formData.name}</h1>
               <p>${formData.phone}</p>
               <p>${formData.email}</p>
+              
             </div>
             <div class="message">
               <p>MSG:<br> ${formData.message}</p>
@@ -116,7 +117,7 @@ app.post('/send',(req,res) => {
         }
         });
 
-    res.send('The Email Was Sent Succefully')
+    res.redirect('/');
 })
 
 app.listen('3000',() => {
