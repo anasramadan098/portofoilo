@@ -117,7 +117,8 @@ app.post('/send',(req,res) => {
         }
         });
 
-    res.redirect('back');
+    res.send('You Are Send Message Succussfully. <a href="./contact.html"> Click Here To Return </a>');
+
 })
 
 app.listen('3000',() => {
