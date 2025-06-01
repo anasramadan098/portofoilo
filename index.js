@@ -117,7 +117,8 @@ app.post('/send',(req,res) => {
         }
         });
 
-    res.send('You Are Send Message Succussfully. <a href="./contact.html"> Click Here To Return </a>');
+        res.send('You Are Send Message Succussfully. <a href="#" onClick="history.back()"> Click Here To Return </a>');
+
 
 })
 
