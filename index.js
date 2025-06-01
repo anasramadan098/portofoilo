@@ -117,7 +117,8 @@ app.post('/send',(req,res) => {
         }
         });
 
-    res.redirect('/');
+    const href = req.headers.referer;
+    res.redirect(href);
 })
 
 app.listen('3000',() => {
