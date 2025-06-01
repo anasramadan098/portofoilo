@@ -117,7 +117,7 @@ app.post('/send',(req,res) => {
         }
         });
 
-    res.redirect().back();
+    res.redirect('back');
 })
 
 app.listen('3000',() => {
